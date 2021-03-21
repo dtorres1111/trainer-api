@@ -5,7 +5,7 @@ async function createSingleAsset(req, res, next) {
   try {
     let file = saveFile(req.files.file);
     let asset = await Asset.create({
-      url: "https://torres-fitness.herokuapp.com/file-bucket/" + file,
+      url: "http://localhost:4000/file-bucket/" + file,
     });
     res.json(asset);
   } catch (error) {

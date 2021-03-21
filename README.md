@@ -16,7 +16,7 @@ npm start
 
 ## Documentation
 
-https://torres-fitness.herokuapp.com
+http://localhost:4000
 
 ### Predefined Users
 
